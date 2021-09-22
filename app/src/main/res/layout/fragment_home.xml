@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:id="@+id/dashboard_today"
+    tools:context=".HomeFragment">
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_page_news"
+        android:layout_width="403dp"
+        android:layout_height="554dp"
+        android:layout_marginTop="90dp"
+        android:overScrollMode="never"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <me.relex.circleindicator.CircleIndicator3-->
+<!--    app:layout_constraintBottom_toTopOf="@+id/indicator"-->
+<!--        android:id="@+id/indicator"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+<!--    <com.google.android.material.tabs.TabLayout-->
+<!--        android:id="@+id/tabLayout2"-->
+<!--        style="@style/TabIndicatorColor"-->
+<!--        android:layout_width="303dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:textAllCaps="false"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/indicator">-->
+
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/today" />-->
+
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/upcoming" />-->
+
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/past" />-->
+<!--    </com.google.android.material.tabs.TabLayout>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="26dp"-->
+<!--        android:layout_marginRight="26dp"-->
+<!--        android:fontFamily="@font/rubik_light"-->
+<!--        android:text="@string/view_all"-->
+<!--        android:textAppearance="@style/view_all"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/tabLayout2"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/tabLayout2" />-->
+
+<!--    <androidx.viewpager2.widget.ViewPager2-->
+<!--        android:id="@+id/view_pagetab"-->
+<!--        android:layout_width="409dp"-->
+<!--        android:layout_height="417dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tabLayout2"/>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

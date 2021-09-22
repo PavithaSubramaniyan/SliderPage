@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/home"
+        android:icon="@drawable/home"
+        android:id="@+id/fragment_home"/>
+    <item android:title="@string/new_boast"
+        android:icon="@drawable/newboast"
+        android:id="@+id/fragment_newboast"/>
+    <item android:title="@string/my_boast"
+        android:icon="@drawable/myboast"
+        android:id="@+id/fragment_myboast"/>
+    <item android:title="@string/profile"
+        android:icon="@drawable/profile"
+        android:id="@+id/fragment_profile"/>
+</menu>
